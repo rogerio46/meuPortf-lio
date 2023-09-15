@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(10, 3, 3);
+    font-family:" open sans";
+
+}
+.container{
+    padding: 40px;
+} 
+.information-column{
+    padding: 40px;
+    background-color: rgb(10, 5, 5);
+    color: whitesmoke;
+    text-align: center;
+
+    
+}
+
+
+.information-column hr{
+    border: none;
+    border-bottom: 1px solid white;
+    margin-top: 18px;
+}
+
+
+
+.information-column img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-bottom: 18px;
+}
+.information-column h3{
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.information-column ul{
+    list-style-type : none; 
+}
+
+.information-column  li{
+text-align:left;
+margin: 10px 0;
+
+}
+
+.contato-desscription a {
+    text-decoration:none;
+    color:green;
+
+}
+
+.contato-desscription i{
+    color: rgb(24, 216, 24);
+    margin: right 100px;
+}
+
+.education-description{
+margin-top: 32px; 
+}
+
+.education-description p{
+color: rgb(86, 145, 86);
+}
+.language-description .percent{
+height: 6px;
+background-color: rgb(99, 201, 99);
+margin-top: 5px;
+}   
+
+.language-description.percent div {
+height: 6px;
+background-color: rgb(20, 94, 20);
+}
+.language-description .percent.english div {
+width: 5%;
+
+}
+.experiences-column {
+background-color: #080707;
+padding:40px;
+color: #a1e99d;
+
+}
+.experiences-column h2 {
+    margin-bottom:30px ;
+}
+.experiences-column h2 {
+    margin: bottom: 15px;
+}
+.experiences-column a {
+    text-decoration:underline;
+    color: rgb(231, 227, 227); 
+ }
